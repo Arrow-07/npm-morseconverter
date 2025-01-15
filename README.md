@@ -1,4 +1,4 @@
-# NpmMorsecode
+# npmMorsecode
 
 ## What is this package
 
@@ -16,13 +16,16 @@ npm install npmMorsecode
 Here is an example of how to use `npmMorsecode` to convert text to Morse code and vice versa:
 
 ```javascript
-import { textToMorse } from 'morseconverter';
-import { morseToText } from 'morseconverter';
-
+import { textToMorse } from 'npmmorsecode';
+import { morseToText } from 'npmmorsecode';
+// Example usage
+//init variabile
 const text = "Hello World";
-
-const texttranslated = morseToText('.... . .-.. .-.. ---  .-- --- .-. .-.. -..');
+const morse= ".... . .-.. .-.. --- .-- --- .-. .-.. -..";
+//recall the function
+const texttranslated = morseToText(morse);
 const morseCode = textToMorse(text);
+//print the result
 console.log(morseCode);
 console.log(texttranslated);
 ```
@@ -42,3 +45,10 @@ This function takes a string of Morse code as input and returns the decoded text
 
 - **Parameters**: `morse` (string) - The Morse code to be converted to text.
 - **Returns**: (string) - The Morse code converted to text.
+## Morse Code Formatting
+
+When working with Morse code, it is important to follow these formatting rules to ensure proper encoding and decoding:
+
+1. Only hyphens (-) and dots (.) are allowed.
+2. Each letter must be separated by a space.
+3. Any other characters will result in an error.
