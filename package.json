@@ -1,6 +1,6 @@
 {
   "name": "npmmorsecode",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "npm pack to convert text to morse code and morse code to text",
   "main": "index.js",
   "scripts": {
