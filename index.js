@@ -14,10 +14,10 @@ function textToMorse(text) {
 function morseToText(morseCode) {
     var text = '';
     var morseCodeWords = morseCode.split(' ');
-    console.log(morseCodeWords);
+    //console.log(morseCodeWords);
     for (var i = 0; i < morseCodeWords.length; i++) {
         var morseCodeWord = morseCodeWords[i];
-        console.log(morseCodeWord);
+        //console.log(morseCodeWord);
         if (morseCodeWord === '') {
             text += ' ';
         } else {
