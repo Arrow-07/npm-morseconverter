@@ -1,0 +1,23 @@
+{
+  "name": "npmmorsecode",
+  "version": "1.0.0",
+  "description": "npm pack to convert text to morse code and morse code to text",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arrow-07/npm-morseconverter.git"
+  },
+  "keywords": [
+    "morsecode",
+    "converter"
+  ],
+  "author": "Giacomo Rossi - Arrow07",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Arrow-07/npm-morseconverter/issues"
+  },
+  "homepage": "https://github.com/Arrow-07/npm-morseconverter#readme"
+}
